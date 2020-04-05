@@ -5,7 +5,7 @@
 ### Efficiency
 
 HDBs are date paritioned.
-**Always** add put a date clause first in queries to reduce the directories kdb+ needs to look in.
+**Always** put a date clause first in queries to reduce the directories kdb+ needs to look in.
 
 ```q
 select from Quote where date = .z.d-1
