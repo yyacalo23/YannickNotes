@@ -28,7 +28,7 @@ select from Quote where date = .z.d-1
 
 Find files in a directory:
 ```q
-q) key `:/home/yyacalo/dir ```
+q) key `:/home/yyacalo/dir
 ,file
 ```
 Create a file path:
